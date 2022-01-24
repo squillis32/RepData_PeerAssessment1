@@ -1,0 +1,39 @@
+Reproducible Data Course Project 1
+===================================================================================
+This repository is for the Coursera "Reproducible Data" course project #1.
+
+The goal is to simply examine the personal activity recorded in a monitoring device
+collected during the months of October and November, 2012 from an anonymous individual.
+
+The data for this project can be downloaded through the following link:
+https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip
+
+The variables included in this dataset are:
+
+steps: Number of steps taking in a 5-minute interval (missing values are coded as \color{red}{\verb|NA|}NA)
+
+date: The date on which the measurement was taken in YYYY-MM-DD format
+
+interval: Identifier for the 5-minute interval in which measurement was taken
+
+The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
+
+=========================================================================================
+
+You should create a Rmarkdown file that accomplishes the following and answers the following questions:
+
+1- Loading and preprocessing the data.
+
+2- What is mean total number of steps taken per day?
+
+3- Wha is the average daily activity pattern?
+
+4- Imputing missing values.
+
+5- Are there differences in activity patterns between weekdays and weekends?
+
+=============================================================================================
+
+Files
+PA1_template.Rmd, PA1_template.md, PA1_template.html contains the R scripts that performs the analysis on the raw data.
+hist_total_steps.png, hist_total_steps2.png, time_interval_steps.png and time_panel.png are the end results from running the conde on the four R scripts.
